@@ -50,9 +50,22 @@
     font-family: 'Open Sans', sans-serif;
     // font-family: 'Playfair Display', serif;
   }
+
+  .navbar-lab-link {
+    color: #616668;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    // font-family: 'Playfair Display', serif;
+  }
   
   .navbar-wagon-link:hover {
     color: #da552f;
+    text-decoration: none;
+  }
+
+  .navbar-lab-link:hover {
+    color: #1fd06f;
     text-decoration: none;
   }
   
@@ -96,5 +109,15 @@
     transform: rotate(45deg);
     border-left: 1px solid #E6E6E6;
     border-top: 1px solid #E6E6E6;
+  }
+
+  .navbar-lab {
+    background: white;
+    transition: all 0.3s ease;
+    height: 70px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   

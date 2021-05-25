@@ -2,7 +2,7 @@
   <div class="navbar-wagon">
     <!-- Logo -->
     <%= link_to root_path, class: "navbar-wagon-brand" do %>
-      <%= image_tag "chemlab.png", height: 50 %> 
+      <%= image_tag "logo_full.png", height: 50 %> 
     <% end %>
 
     <!-- Right Navigation -->
@@ -48,10 +48,10 @@
     </div>
 <% else %>
 
-  <div class="navbar-wagon">
+  <div class="navbar-lab">
     <!-- Logo -->
     <%= link_to root_path, class: "navbar-wagon-brand" do %>
-      <%= image_tag "chemlab.png", height: 50 %>
+      <%= image_tag "logo_full_white.png", height: 50 %>
     <% end %>
 
     <!-- Right Navigation -->
@@ -65,11 +65,11 @@
 
       <!-- Once auth fixed then delete all the stuff below -->
       <!-- Links when logged in -->
-        <%= link_to "Our work", root_path, class: "navbar-wagon-item navbar-erikablog-link" %>
-        <%= link_to "Success stories", new_user_session_url, class: "navbar-wagon-item navbar-erikablog-link" %>
-        <%= link_to "Services", new_user_session_url, class: "navbar-wagon-item navbar-erikablog-link" %>
-        <%= link_to "Blog", new_user_session_url, class: "navbar-wagon-item navbar-erikablog-link" %>
-        <%= link_to "Contact", new_user_session_url, class: "navbar-wagon-item navbar-erikablog-link" %>
+        <%= link_to "Our work", root_path, class: "navbar-wagon-item navbar-lab-link" %>
+        <%= link_to "Success stories", new_user_session_url, class: "navbar-wagon-item navbar-lab-link" %>
+        <%= link_to "Services", new_user_session_url, class: "navbar-wagon-item navbar-lab-link" %>
+        <%= link_to "Blog", new_user_session_url, class: "navbar-wagon-item navbar-lab-link" %>
+        <%= link_to "Contact", new_user_session_url, class: "navbar-wagon-item navbar-lab-link" %>
 
 
         <!-- Avatar with dropdown menu Not Used Here -->

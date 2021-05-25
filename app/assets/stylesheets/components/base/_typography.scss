@@ -47,3 +47,33 @@ a {
 .text-center__simple {
     text-align: center;
 }
+
+.text-greeting {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #5a5b58;
+}
+
+.text-value {
+    margin-top: -20px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 490;
+    color: #061826;
+}
+
+.text-link {
+    color: #616668;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    // font-family: 'Playfair Display', serif;
+  }
+
+.text-landing-link {
+    color: #1cc467;
+    text-decoration: none;
+  }

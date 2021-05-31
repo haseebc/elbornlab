@@ -100,3 +100,32 @@ a {
     font-weight: 200;
     color: #061826;
 }
+
+  .bottomleft {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    color: white;
+    font-size: 20px;
+
+  
+    margin-top: -15px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 550;
+  }
+
+  .text-sector {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    color: white;
+
+  
+    margin-top: -15px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }

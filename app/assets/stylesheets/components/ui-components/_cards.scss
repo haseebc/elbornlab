@@ -24,6 +24,32 @@ td {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
+.card-form__standard {
+  
+  padding: 40px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 0px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-description2 {
+  
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #4F4F4F;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 40px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 0px;
+}
+
 .card-centre_white{
     background: white;
     padding: 40px;
@@ -237,6 +263,26 @@ text-align: left;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
 }
+
+.card-wrapper {   
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  width: 40%;
+}
+
+.card-pink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  background: rgb(247, 132, 132);
+  border-radius: 8px;
+  box-shadow: 2px 2px 20px rgb(129, 96, 96);
+}
+
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {

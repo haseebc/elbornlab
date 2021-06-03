@@ -206,8 +206,67 @@ a {
   border:1px solid #999999;
   margin:5px 0;
   padding:3px;
+}
+.text-privpolicy {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 350;
+    color: white;
+}
+.spacer {
+    margin-top: 20pxpx;
+}
 
+.text-ournumber_small {
+        margin-top: -10px;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 200;
+        color: #1cc467;
+        margin-bottom: 0px;
+}
 
+.text-ouremail_small {
+    margin-top: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: #1cc467;
+    margin-bottom: 0px;
+}
 
-  
+.text-ourwork_small {
+    margin-top: -40px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: #1cc467;
+    margin-bottom: 0px;
+}
+
+.text-addrslink {
+    margin-top: 1px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 350;
+    color: white;
+}
+
+.text-addrslink:hover {
+    margin-top: 1px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 350;
+    color: white;
+    text-decoration: none;
 }

@@ -285,7 +285,7 @@ text-align: left;
 
 .card_simple{
   /* Add shadows to create the "card" effect */
-  height: 300px;
+  height: 250px;
   transition: 0.3s;
   
   font-family: 'Open Sans', sans-serif;
@@ -296,6 +296,7 @@ text-align: left;
   justify-content: left;
   display: flex;
   vertical-align: middle;
+  margin-top: -20px;
 }
 .card_image{
   /* Add shadows to create the "card" effect */
@@ -312,11 +313,21 @@ text-align: left;
   vertical-align: middle;
 }
 
-.container_centre {
+.container_centre_A {
   min-height: 10em;
   display: table-cell;
   vertical-align: middle;
   padding-right: 10%;
+  padding-left: 0;
+  margin-top: -20px;
+}
+
+.container_centre_B {
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 // Smallest device

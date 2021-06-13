@@ -292,3 +292,57 @@ a {
     font-size: 20px;
   
 }
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+    .card_simple {
+      grid-template-columns: 1fr;
+    }
+    .container_centre {
+      grid-template-columns: 1fr;
+    }
+    .card-centre_white {
+      grid-template-columns: 1fr;
+      margin-left: 1%;
+      margin-right: 1%;
+      padding: 30px;
+      line-height: 250%;
+  
+    }
+  }
+  
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+    .text-value {
+        line-height: 120%;
+        font-size: 30px;
+        font-weight: 549;
+
+    }
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) {
+    .text-value {
+        line-height: 120%;
+        font-size: 32px;
+        font-weight: 520;
+  }
+}
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+
+  }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+
+  }

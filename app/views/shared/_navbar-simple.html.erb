@@ -100,11 +100,11 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-erikablog-dropdown-menu">
-        <li><%= link_to 'Our work', root_path %></li>
-        <li><%= link_to 'Success stories', root_path %></li>
-        <li><%= link_to 'Services', root_path %></li>
-        <li><%= link_to 'Blog', root_path %></li>
-        <li><%= link_to 'Contact', root_path %></li>    
+        <li><%= link_to "Our work", our_work_path, class: "navbar-wagon-item navbar-lab-link" %></li>
+        <li><%= link_to "Success stories", success_stories_path, class: "navbar-wagon-item navbar-lab-link" %></li>
+        <li><%= link_to "Services", services_path, class: "navbar-wagon-item navbar-lab-link" %></li>
+        <li><a class="navbar-wagon-item navbar-lab-link" href="https://blog.elbornlab.com">Blog</a></li>
+        <li><%= link_to "Contact", contact_path, class: "navbar-wagon-item navbar-lab-link" %></li> 
       </ul>
     </div>
   </div>

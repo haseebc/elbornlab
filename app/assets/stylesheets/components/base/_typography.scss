@@ -333,6 +333,31 @@ a {
     .container_centre {
       grid-template-columns: 1fr;
     }
+    .text-sector {
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+        color: white;
+        margin-top: -15px;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .bottomleft {
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+        color: white;
+        font-size: 20px;
+        margin-top: -15px;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 22px;
+        font-weight: 550;
+      }
+
+
   }
   
 // Smallest device

@@ -67,3 +67,6 @@ gem 'pygments.rb'
 gem 'redcarpet'
 gem 'cloudinary', '~> 1.9.1'
 gem 'figaro'
+
+# added by Haseeb Sitemap
+gem 'sitemap_generator'

@@ -340,7 +340,18 @@ a {
 
 .text-section {
     font-size: 20px;
-  
+}
+
+.text-section-desc {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 350;
+}
+
+.text-section-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 450;
 }
 
 // Smallest device

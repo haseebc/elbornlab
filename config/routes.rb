@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get 'services', to: 'pages#services'
   get 'blog', to: 'pages#blog'
   get 'contact', to: 'pages#contact'
+  get 'prices', to: 'pages#prices'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: %i[home our_work success_stories services blog contact]
+  skip_before_action :authenticate_user!, only: %i[home our_work success_stories services blog contact prices]
 
   def home
   end
@@ -17,6 +17,9 @@ class PagesController < ApplicationController
   end
 
   def contact
+  end
+
+  def prices
   end
 
 end

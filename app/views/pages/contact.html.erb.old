@@ -31,25 +31,21 @@
     </head>
     <body>
     
-    <div class="container">
-        <div class="card border-0">
-            <div class="text-greetings">
-            <p>Let's have a chat</p>
-            </div>
-            <div class="text-values">
-            <h1>Contact Us</h1>
-            </div>
-            <div class="text-ouremail">
-            <a href="mailto:someone@yoursite.com" class="text-ouremail">hola@elbornlab.com</a> 
-            </div>
-            <div class="text-ournumbers">
-            <p>+34 671 299 969</p>
-            <p class="text-visitus"><a class="text-visitus" href="https://goo.gl/maps/zUrVgaprQp5EbLpQ7" target="_blank" rel="noopener noreferrer">Visit us in Barcelona</a></p> 
-
+      <div class="card-centre_white">      
+        <div class="text-greeting">
+        <p>Let's have a chat</p>
         </div>
-    </div>
-    
-
-<%= render 'shared/contact_section.html.erb' %>
+        <div class="text-value">
+          <p>Contact Us</p>
+        </div>
+        <div class="text-ouremail">
+        <a href="mailto:someone@yoursite.com" class="text-ouremail">hola@elbornlab.com</a> 
+        </div>
+        <div class="text-ournumber">
+        <p>+34 671 299 969</p>
+        <p class="text-visitus"><a class="text-visitus" href="https://goo.gl/maps/zUrVgaprQp5EbLpQ7" target="_blank" rel="noopener noreferrer">Visit us in Barcelona</a></p>   
+        </div>
+      </div>
+      <%= render 'shared/contact_section.html.erb' %>
   </body>
 </html>

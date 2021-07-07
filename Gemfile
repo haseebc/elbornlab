@@ -65,7 +65,7 @@ gem 'bootstrap'
 gem 'jquery-rails'
 gem 'pygments.rb'
 gem 'redcarpet'
-gem 'cloudinary', '~> 1.9.1'
+gem 'cloudinary', '~> 1.16.1'
 gem 'figaro'
 
 # added by Haseeb Sitemap

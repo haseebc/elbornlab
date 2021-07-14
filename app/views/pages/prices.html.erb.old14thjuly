@@ -30,9 +30,7 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     </head>
   <body>
-    <div class="container">
-    <%= render 'shared/navbar-simple' %>  
-    <div class="card border-0 mt-5">
+    <div class="card-centre_white">
       <div class="text-greeting">
       <p>What are our rates for Mobile Apps</p>
       </div>
@@ -44,7 +42,7 @@
       </div>
     </div>
     
-    
+    <div class="container">
         <div class="row align-items-center">
             <div class="card-deck">
                 <div class="card text-center mb-4 mx-4">
@@ -163,7 +161,7 @@
             </div>   
         </div>
 
-     </div>  
+    </div>    
     <%= render 'shared/contact_section.html.erb' %>
     </body>
 </html>

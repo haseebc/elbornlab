@@ -11,18 +11,16 @@
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
-    <%= render 'shared/navbar-simple' %>
+    
     <%= render 'shared/flashes' %>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
   </body>
-
 <% flash.each do |name, msg| %>
     <ul>
      <li><%= msg %></li>
     </ul>
 <% end %>
-
 
 </html>

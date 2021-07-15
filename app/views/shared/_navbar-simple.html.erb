@@ -14,8 +14,6 @@
       <!-- Links when logged in -->
         <%= link_to "Home", root_path, class: "navbar-wagon-item navbar-erikablog-link" %>
         <%= link_to "Logout", destroy_user_session_path,:method => 'delete', class: "navbar-wagon-item navbar-erikablog-link" %>
-
-
         <!-- Avatar with dropdown menu -->
         <div class="navbar-wagon-item">
           <div class="dropdown">
@@ -64,6 +62,7 @@
         <!-- <%= link_to "Success stories", success_stories_path, class: "navbar-wagon-item navbar-lab-link" %>-->
         <%= link_to "Services", services_path, class: "navbar-wagon-item navbar-lab-link" %>
         <%= link_to "Prices", prices_path, class: "navbar-wagon-item navbar-lab-link" %>
+        <%= link_to "Events", events_path, class: "navbar-wagon-item navbar-lab-link" %>
         <a class="navbar-wagon-item navbar-lab-link" href="https://blog.elbornlab.com">Blog</a>
         <%= link_to "Contact", contact_path, class: "navbar-wagon-item navbar-lab-link" %>
         <!-- Avatar with dropdown menu Not Used Here -->
@@ -101,6 +100,7 @@
         <!--<li><%= link_to "Success stories", success_stories_path, class: "navbar-wagon-item navbar-lab-link" %></li>-->
         <li><%= link_to "Services", services_path, class: "navbar-wagon-item navbar-lab-link" %></li>
         <li><%= link_to "Prices", prices_path, class: "navbar-wagon-item navbar-lab-link" %></li>
+        <li><%= link_to "Events", events_path, class: "navbar-wagon-item navbar-lab-link" %></li>
         <li><a class="navbar-wagon-item navbar-lab-link" href="https://blog.elbornlab.com">Blog</a></li>
         <li><%= link_to "Contact", contact_path, class: "navbar-wagon-item navbar-lab-link" %></li> 
       </ul>

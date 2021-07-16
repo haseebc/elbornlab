@@ -55,7 +55,7 @@
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
             <small class="card-meta mb-2">Cyber Security</small>
-            <h4 class="card-title mt-0 "><a class="text-white" href="https://www.meetup.com/barcelona-coding-school-building-and-hacking-apps/events/279423202/">Pen Testing: An Intro</a></h4>
+            <h4 class="card-title mt-0 "><a class="text-white" href="https://www.meetup.com/barcelona-coding-school-building-and-hacking-apps/events/279423202/">Penetration Testing: An Intro</a></h4>
            <small><i class="far fa-clock"></i> August 30, 2021</small>
           </div>
           <div class="card-footer">
@@ -63,7 +63,7 @@
   <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
   <div class="media-body">
     <h6 class="my-0 text-white d-block">Haseeb</h6>
-     <small>Security Architect</small>
+     <small>Developer & Security Architect</small>
   </div>
 </div>
           </div>

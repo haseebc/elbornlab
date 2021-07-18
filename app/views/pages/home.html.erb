@@ -30,8 +30,9 @@
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     </head>
   <body>
-    <div class="container">
     <%= render 'shared/navbar-simple' %>
+    <div class="container">
+    
         <div class="card border-0">
             
             <div class="text-greeting mt-5">
@@ -57,6 +58,10 @@
 <!-- Workd well
     <%= cl_video_tag("npbpq1adizzqh0w2w7jn", :size => "320x240", :controls => true) %>
 -->
-<%= render 'shared/contact_section.html.erb' %>
+<%= render 'shared/ourwork_section' %> 
+<%= render 'shared/services_section' %>
+<%= render 'shared/events_section' %>
+<%= render 'shared/contact_section' %>
+
   </body>
 </html>
